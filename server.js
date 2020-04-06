@@ -496,6 +496,6 @@ app.get("/probaTokena", authenticateToken, function (request, response) {
 // Viber webhook
 app.use("/viber/webhook", bot.middleware());
 bot
-  .setWebhook("https://opstina.glitch.me/")
+  .setWebhook("https://chatbotapi.digitalcontrol.me")
   .then(() => console.log("set webhook"))
   .catch((err) => console.log(err));
