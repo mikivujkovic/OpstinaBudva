@@ -3,6 +3,9 @@ services:
   web:
     build: .
     command: npm run start
+    environment:
+      PIN: mhgeyfgnxwurfgnc
+      SECRET_KEY: hmkhaDHADXHNADMHSDIJDKBjhgxjhd
     volumes:
       - .:/usr/app/
       - /usr/app/node_modules/
