@@ -228,7 +228,12 @@ function starting() {
 
 // Bot onConversationStarted
 bot.onConversationStarted((userProfile, isSubscribed, context, onFinish) =>
-  onFinish(bot.sendMessage({ id: userProfile.id }, pocetnaPoruka))
+  onFinish(
+    bot.sendMessage(
+      { id: userProfile.id },
+      new TextMessage(Poruke.pocetnaPoruka, Tastature.pocetnaTastatura())
+    )
+  )
 );
 
 // Bot onSubscribe
