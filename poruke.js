@@ -1,17 +1,22 @@
 const pocetnaPoruka = `
 Dobrodošli na chat bot Opštine Budva!\n
-Molimo sve građane i korisnike usluga Opštine Budva da, tokom trajanja privremenih mjera Ministarstva zdravlja Crne Gore i preporuka Vlade Crne Gore, zahtjeve i upite prema jedinici lokalne samouprave podnose elektronski ili putem telefona.\n
-U nastavku su telefonski i mail kontakti svih organa lokalne samouprave i uprave.\n
-Štiteći druge, štitimo sebe.\n
-Ostanite zdravi.
+Kako bismo spriječili širenje korona virusa, molimo sve građane i korisnike usluga Opštine Budva da zahtjeve i upite prema jedinici lokalne samouprave podnose elektronski ili putem telefona.\n
+U nastavku možete pronaći telefonske i mail kontakte svih organa lokalne samouprave i uprave, postaviti pitanje operateru i saznati najvažnije informacije u vezi ostvarivanja Vaših prava, za vrijeme trajanja privremnih mjera Vlade Crne Gore.\n
+Štiteći sebe, štitimo druge.\n
+Ostanite zdravi.\n
+Sekretarijat za lokalnu samoupravu Opštine Budva.
 `;
 
 const vazneInformacije = `
-- Za vrijeme trajanja privremenih mjera sva lična dokumenta izdata nakon 2008. godine (lična karta, pasoš i vozačka dozvola) koje posjeduju građani, a kojima je istekao rok važenja, u ostvarivanju prava ili izvršavanju obaveza pred organima lokalne uprave, smatraju se važećim.\n 
-- Za vrijeme trajanja privremenih mjera dozvole za stalni boravak, dozvole za privremeni boravak i dozvole za privremeni boravak i rad stranaca kojima je istekao rok važenja, a po osnovu kojih ostvaruju pred organima lokalne uprave neko svoje pravo ili izvršavaju obavezu, smatraju se važećim.\n 
+- Rad sa strankama organa uprave i Građanskog biroa je od 8.30 do 11.00 h svakog radnog dana.\n
 - U skladu sa Naredbom Predsjednika opštine u prostoru Građanskog biroa ne mogu boraviti više od četiri klijenta istovremeno.\n
 - Konsultacije sa obrađivačem predmeta u nadležnom organu mogu se obaviti isključivo telefonski ili elektronski, osim u slučaju kada interes stranke ili zaštita života i zdravlja ili imovine veće vrijednosti zahtijeva hitno postupanje.\n
+- Kontakt sa službenicima, obrađivačima zahtjeva, je moguć jedino ukoliko je prethodno zakazan i najavljen Službi obezbijeđenja Sekretarijata za lokalnu samoupravu.\n
 - Sve odluke u postupcima koji se vode pred organima lokalne uprave Opštine Budva biće dostavljena strankama putem pošte.\n
+- Za vrijeme trajanja privremenih mjera sva lična dokumenta izdata nakon 2008. godine (lična karta, pasoš i vozačka dozvola) koje posjeduju građani, a kojima je istekao rok važenja, u ostvarivanju prava ili izvršavanju obaveza pred organima lokalne uprave, smatraju se važećim.\n
+- Za vrijeme trajanja privremenih mjera dozvole za stalni boravak, dozvole za privremeni boravak i dozvole za privremeni boravak i rad stranaca kojima je istekao rok važenja, a po osnovu kojih ostvaruju pred organima lokalne uprave neko svoje pravo ili izvršavaju obavezu, smatraju se važećim.\n
+- Mole se građani i klijenti Opštine Budva da zahtjeve podnose elektronskim putem, posredstvom zvaničnih mail adresa.\n
+- Dežurni telefon Crvenog krsta Budva je 033455547.
 `;
 
 const opstinaBudva = `

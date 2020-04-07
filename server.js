@@ -224,10 +224,9 @@ bot.on(BotEvents.MESSAGE_RECEIVED, (message, response) => {
 
 // Bot onConversationStarted
 bot.onConversationStarted((userProfile, isSubscribed, context, onFinish) =>
-  onFinish(
-    bot.sendMessage({ id: userProfile.id }, pocetnaPoruka),
-    Tastature.pocetnaTastatura()
-  )
+  onFinish()
+  // bot.sendMessage({ id: userProfile.id }, pocetnaPoruka),
+  // Tastature.pocetnaTastatura()
 );
 
 // Bot onSubscribe
