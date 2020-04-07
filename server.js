@@ -5,13 +5,13 @@ const { Sequelize, DataTypes } = require("sequelize");
 const bcrypt = require("bcrypt");
 const bodyParser = require("body-parser");
 const jwt = require("jsonwebtoken");
-const cors = require("cors");
+// const cors = require("cors");
 const Poruke = require("./poruke.js");
 const Tastature = require("./tastature.js");
 
 // Express server
 const app = express();
-app.use(cors());
+//app.use(cors());
 app.listen(3000, "0.0.0.0");
 console.log("start app");
 
@@ -223,8 +223,8 @@ bot.on(BotEvents.MESSAGE_RECEIVED, (message, response) => {
 });
 
 // Bot onConversationStarted
-bot.onConversationStarted((userProfile, isSubscribed, context, onFinish) =>
-  onFinish()
+bot.onConversationStarted(
+  (userProfile, isSubscribed, context, onFinish) => onFinish()
   // bot.sendMessage({ id: userProfile.id }, pocetnaPoruka),
   // Tastature.pocetnaTastatura()
 );
