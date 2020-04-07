@@ -222,11 +222,13 @@ bot.on(BotEvents.MESSAGE_RECEIVED, (message, response) => {
   }
 });
 
+function starting() {
+  bot.sendMessage({ id: mojId }, pocetnaPoruka), Tastature.pocetnaTastatura();
+}
+
 // Bot onConversationStarted
-bot.onConversationStarted(
-  (userProfile, isSubscribed, context, onFinish) => onFinish()
-  // bot.sendMessage({ id: userProfile.id }, pocetnaPoruka),
-  // Tastature.pocetnaTastatura()
+bot.onConversationStarted((userProfile, isSubscribed, context, onFinish) =>
+  onFinish(bot.sendMessage({ id: userProfile.id }, pocetnaPoruka))
 );
 
 // Bot onSubscribe
