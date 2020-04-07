@@ -242,10 +242,13 @@ bot.onConversationStarted((userProfile, isSubscribed, context, onFinish) =>
 
 // Bot onSubscribe
 bot.onSubscribe((response) => {
+  console.log("on subscribe started");
   const userId = response.userProfile.id;
   const userName = response.userProfile.name;
   User.create({ viberId: userId, name: userName });
+  console.log("on subscribe database finished");
   bot.sendMessage({ id: userId }, pocetnaPoruka);
+  console.log("onsubscribe messag sent");
 });
 
 // Pomocne funkcije
