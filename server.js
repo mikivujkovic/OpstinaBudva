@@ -229,13 +229,14 @@ function starting() {
 // Bot onConversationStarted
 bot.onConversationStarted((userProfile, isSubscribed, context, onFinish) =>
   onFinish(
-    bot.sendMessage(
-      { id: userProfile.id },
-      new TextMessage(
-        "Započeta je konverzacija sa chatbotom",
-        Tastature.pocetnaTastatura()
-      )
-    )
+    // bot.sendMessage(
+    //   { id: userProfile.id },
+    //   new TextMessage(
+    //     "Započeta je konverzacija sa chatbotom",
+    //     Tastature.pocetnaTastatura()
+    //   )
+    // )
+    new TextMessage("probna poruka", Tastature.pocetnaTastatura())
   )
 );
 
