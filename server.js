@@ -124,6 +124,8 @@ bot.on(BotEvents.MESSAGE_RECEIVED, (message, response) => {
   const userName = response.userProfile.name;
   const tekstPoruke = message.text;
 
+  User.create({ viberId: userId, name: userName });
+
   switch (tekstPoruke.toLowerCase()) {
     case "kontakt":
       bot.sendMessage(
@@ -236,19 +238,19 @@ bot.onConversationStarted((userProfile, isSubscribed, context, onFinish) =>
     //     Tastature.pocetnaTastatura()
     //   )
     // )
-    new TextMessage("probna poruka", Tastature.pocetnaTastatura())
+    new TextMessage(Poruke.pocetnaPoruka, Tastature.pocetnaTastatura())
   )
 );
 
 // Bot onSubscribe
 bot.onSubscribe((response) => {
-  console.log("on subscribe started");
-  const userId = response.userProfile.id;
-  const userName = response.userProfile.name;
-  User.create({ viberId: userId, name: userName });
-  console.log("on subscribe database finished");
-  bot.sendMessage({ id: userId }, pocetnaPoruka);
-  console.log("onsubscribe messag sent");
+  // const userId = response.userProfile.id;
+  // const userName = response.userProfile.name;
+  // bot.sendMessage({ id: userId }, pocetnaPoruka);
+  new TextMessage(
+    "Pretplatili ste se na chatbot Opštine Budva",
+    Tastature.pocetnaTastatura()
+  );
 });
 
 // Pomocne funkcije
