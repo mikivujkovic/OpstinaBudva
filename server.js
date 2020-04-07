@@ -231,7 +231,10 @@ bot.onConversationStarted((userProfile, isSubscribed, context, onFinish) =>
   onFinish(
     bot.sendMessage(
       { id: userProfile.id },
-      new TextMessage(Poruke.pocetnaPoruka, Tastature.pocetnaTastatura())
+      new TextMessage(
+        "Započeta je konverzacija sa chatbotom",
+        Tastature.pocetnaTastatura()
+      )
     )
   )
 );
