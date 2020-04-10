@@ -15,6 +15,11 @@ const vazneInformacije = `
 - Sve odluke u postupcima koji se vode pred organima lokalne uprave Opštine Budva biće dostavljena strankama putem pošte.\n
 - Za vrijeme trajanja privremenih mjera sva lična dokumenta izdata nakon 2008. godine (lična karta, pasoš i vozačka dozvola) koje posjeduju građani, a kojima je istekao rok važenja, u ostvarivanju prava ili izvršavanju obaveza pred organima lokalne uprave, smatraju se važećim.\n
 - Za vrijeme trajanja privremenih mjera dozvole za stalni boravak, dozvole za privremeni boravak i dozvole za privremeni boravak i rad stranaca kojima je istekao rok važenja, a po osnovu kojih ostvaruju pred organima lokalne uprave neko svoje pravo ili izvršavaju obavezu, smatraju se važećim.\n
+- U vrijeme trajanja privremenih mjera Vlade Crne Gore, zabranjen je sportsko-rekreativni ribolov, koji podrazumjeva ribolov iz čamca, ribolov sa obale i podvodni ribolov . Privredni ribolov je i dalje dozvoljen uz mjere javljanja o isplovljavanju.\n
+- U toku trajanja mjera Vlade Crne Gore, rok za podnošenje poreskih prijava za nepokretnost pomjeren je do 15. aprila 2020. godine. Plaćanje utvrđenih poreskih obaveza omogućiće se udvije rate i to: za fizička lica I rata do 01.09.2020. a II rata do 31.10.2020. godine. Plaćanje obaveza za pravna lica će se takođe omogućiti u dvije rate po dinamici koja će biti naknadno određena.\n
+- Prinudne naplate poreza na nepokretnost za fizička i pravna lica, kao i prinudne naplate prireza porezu na dohodak za fizička i pravna lica, odložiće se na period od 60 dana, a već započeti postupci prinudne naplate se obustavljanju na period od 60 dana.\n
+- Poreske prijave, kao i sve ostale zahtjeve, građani mogu podnijeti neposredno na Građanskom birou Opštine Budva, putem pošte na adresu Uprava lokalnih javnih prihoda, Opština Budva, Trg sunca, br.3 ili putem e-mail:  vesko.maric@budva.me ili ankica.scekic@budva.me\n
+- Sve ostale inforrmacije građani mogu dobiti pozivom na sljedeće brojeve telefona: 033474330, 067707444 i 067240237\n
 - Mole se građani i klijenti Opštine Budva da zahtjeve podnose elektronskim putem, posredstvom zvaničnih mail adresa.\n
 - Dežurni telefon Crvenog krsta Budva je 033455547.
 `;
