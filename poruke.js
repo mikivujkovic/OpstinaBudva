@@ -8,6 +8,7 @@ Sekretarijat za lokalnu samoupravu Opštine Budva.
 `;
 
 const vazneInformacije = `
+= Pozivaju se svi registrovani poljoprivredni proizvođači sa teritorije opštine Budva da, ukoliko raspolažu sa viškovima proizvoda, dostave svoje kontakt podatke Sekretarijatu za privredu, putem maila: privreda@budva.me; natasa.maras@budva.me, ili putem telefona 067881571 kako bi omogućili i olakšali snabdijevanje lokalnog stanovništva domaćim proizvodima.\n
 - Rad sa strankama organa uprave i Građanskog biroa je od 8.30 do 11.00 h svakog radnog dana.\n
 - U skladu sa Naredbom Predsjednika opštine u prostoru Građanskog biroa ne mogu boraviti više od četiri klijenta istovremeno.\n
 - Konsultacije sa obrađivačem predmeta u nadležnom organu mogu se obaviti isključivo telefonski ili elektronski, osim u slučaju kada interes stranke ili zaštita života i zdravlja ili imovine veće vrijednosti zahtijeva hitno postupanje.\n
@@ -15,7 +16,6 @@ const vazneInformacije = `
 - Sve odluke u postupcima koji se vode pred organima lokalne uprave Opštine Budva biće dostavljena strankama putem pošte.\n
 - Za vrijeme trajanja privremenih mjera sva lična dokumenta izdata nakon 2008. godine (lična karta, pasoš i vozačka dozvola) koje posjeduju građani, a kojima je istekao rok važenja, u ostvarivanju prava ili izvršavanju obaveza pred organima lokalne uprave, smatraju se važećim.\n
 - Za vrijeme trajanja privremenih mjera dozvole za stalni boravak, dozvole za privremeni boravak i dozvole za privremeni boravak i rad stranaca kojima je istekao rok važenja, a po osnovu kojih ostvaruju pred organima lokalne uprave neko svoje pravo ili izvršavaju obavezu, smatraju se važećim.\n
-- U vrijeme trajanja privremenih mjera Vlade Crne Gore, zabranjen je sportsko-rekreativni ribolov, koji podrazumjeva ribolov iz čamca, ribolov sa obale i podvodni ribolov . Privredni ribolov je i dalje dozvoljen uz mjere javljanja o isplovljavanju.\n
 - U toku trajanja mjera Vlade Crne Gore, rok za podnošenje poreskih prijava za nepokretnost pomjeren je do 15. aprila 2020. godine. Plaćanje utvrđenih poreskih obaveza omogućiće se udvije rate i to: za fizička lica I rata do 01.09.2020. a II rata do 31.10.2020. godine. Plaćanje obaveza za pravna lica će se takođe omogućiti u dvije rate po dinamici koja će biti naknadno određena.\n
 - Prinudne naplate poreza na nepokretnost za fizička i pravna lica, kao i prinudne naplate prireza porezu na dohodak za fizička i pravna lica, odložiće se na period od 60 dana, a već započeti postupci prinudne naplate se obustavljanju na period od 60 dana.\n
 - Poreske prijave, kao i sve ostale zahtjeve, građani mogu podnijeti neposredno na Građanskom birou Opštine Budva, putem pošte na adresu Uprava lokalnih javnih prihoda, Opština Budva, Trg sunca, br.3 ili putem e-mail:  vesko.maric@budva.me ili ankica.scekic@budva.me\n
