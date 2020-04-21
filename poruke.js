@@ -8,7 +8,7 @@ Sekretarijat za lokalnu samoupravu Opštine Budva.
 `;
 
 const vazneInformacije = `
-= Pozivaju se svi registrovani poljoprivredni proizvođači sa teritorije opštine Budva da, ukoliko raspolažu sa viškovima proizvoda, dostave svoje kontakt podatke Sekretarijatu za privredu, putem maila: privreda@budva.me; natasa.maras@budva.me, ili putem telefona 067881571 kako bi omogućili i olakšali snabdijevanje lokalnog stanovništva domaćim proizvodima.\n
+- Pozivaju se svi registrovani poljoprivredni proizvođači sa teritorije opštine Budva da, ukoliko raspolažu sa viškovima proizvoda, dostave svoje kontakt podatke Sekretarijatu za privredu, putem maila: privreda@budva.me; natasa.maras@budva.me, ili putem telefona 067881571 kako bi omogućili i olakšali snabdijevanje lokalnog stanovništva domaćim proizvodima.\n
 - Rad sa strankama organa uprave i Građanskog biroa je od 8.30 do 11.00 h svakog radnog dana.\n
 - U skladu sa Naredbom Predsjednika opštine u prostoru Građanskog biroa ne mogu boraviti više od četiri klijenta istovremeno.\n
 - Konsultacije sa obrađivačem predmeta u nadležnom organu mogu se obaviti isključivo telefonski ili elektronski, osim u slučaju kada interes stranke ili zaštita života i zdravlja ili imovine veće vrijednosti zahtijeva hitno postupanje.\n
