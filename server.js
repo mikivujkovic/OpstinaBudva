@@ -321,6 +321,25 @@ app.get("/pitanja", authenticateToken, function (request, response) {
   });
 });
 
+app.get("/pitanjaSaVremenom", authenticateToken, function (request, response) {
+  var dbPoruke = [];
+  Pitanje.findAll().then(function (poruke) {
+    poruke.forEach(function (poruka) {
+      dbPoruke.push({
+        id: poruka.id,
+        viberId: poruka.viberId,
+        pitanje: poruka.pitanje,
+        odgovoreno: poruka.odgovoreno,
+        odgovor: poruka.odgovor,
+        kontakt: poruka.kontakt,
+        created: poruka.createdAt,
+        updated: poruka.updatedAt,
+      });
+    });
+    response.send(dbPoruke);
+  });
+});
+
 app.get("/neodgovorenaPitanja", authenticateToken, function (
   request,
   response
